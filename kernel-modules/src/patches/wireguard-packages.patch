@@ -1,0 +1,11 @@
+--- src/buildroot-2017.11.1/package/Config.in	2017-12-31 10:03:52.000000000 +0100
++++ buildroot-2017.11.1/package/Config.in	2022-01-25 18:09:16.000000000 +0100
+@@ -1806,7 +1806,7 @@
+ 	source "package/wavemon/Config.in"
+ 	source "package/wget/Config.in"
+ 	source "package/whois/Config.in"
+-	source "package/wireguard/Config.in"
++	source "package/wireguard-linux-compat/Config.in"
+ 	source "package/wireless-regdb/Config.in"
+ 	source "package/wireless_tools/Config.in"
+ 	source "package/wireshark/Config.in"

@@ -1,0 +1,12 @@
+[Unit]
+Description=Run UI-Ware setup script
+Wants=network.target
+After=network.target
+
+[Service]
+Type=oneshot
+ExecStartPre=sh -c 'DIR="$(find /mnt/data/opt /data/opt -maxdepth 1 -type d -name "opt" 2>/dev/null | head -n1)"; ln -sf "$DIR/setup-uiware.sh" /etc'
+ExecStart=/etc/setup-uiware.sh
+
+[Install]
+WantedBy=multi-user.target
