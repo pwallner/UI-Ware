@@ -102,13 +102,16 @@ I'm a working single dad and this is only my hobby which I did in my rare free t
 [![Donate](https://github.com/pwallner/UI-Ware/raw/main/images/QR-Code.png)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
 
 ## FAQ
+
 <details markdown='1'>
+
 <summary>A package is missing in the repo, what can I do</summary>
 	
  - Send a request, you know I'm a busy man, but maybe I can help
  - Compile a package, send it to me, I can add it to the repo[^2]
 
 </details>
+
 
 [^1]:Special thx to the [wireguard-kmod](https://github.com/tusc/wireguard-kmod) team for support and the code which I can use.
 [^2]:See guidelines to follow [TBC]
