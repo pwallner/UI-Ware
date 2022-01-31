@@ -112,6 +112,7 @@ I'm a working single dad and this is only my hobby which I did in my rare free t
 
 </details>
 
-
+{% comment %}
 [^1]:Special thx to the [wireguard-kmod](https://github.com/tusc/wireguard-kmod) team for support and the code which I can use.
 [^2]:See guidelines to follow [TBC]
+{% endcomment %}
