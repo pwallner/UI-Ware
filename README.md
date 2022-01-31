@@ -102,7 +102,7 @@ I'm a working single dad and this is only my hobby which I did in my rare free t
 [![Donate](https://github.com/pwallner/UI-Ware/raw/main/images/QR-Code.png)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
 
 ## FAQ
-<details>
+<details markdown='1'>
 <summary>A package is missing in the repo, what can I do</summary>
 	
  - Send a request, you know I'm a busy man, but maybe I can help
