@@ -1,0 +1,258 @@
+Package: dpkg
+Architecture: arm64
+Version: 1.21.1
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: admin
+Maintainer: Dpkg Developers <debian-dpkg@lists.debian.org>
+Pre-Depends: libbz2-1.0, libc6 (>= 2.26), liblzma5 (>= 5.2.5), libselinux1 (>= 3.3~), zlib1g (>= 1:1.2.11)
+Depends: tar (>= 1.34)
+Suggests: apt, debsig-verify
+Filename: ./dpkg_1.21.1_arm64.deb
+Size: 1163664
+MD5sum: ecae459820febe2d273cc7e6e89ca96c
+SHA1: 1c68c135776855ebf94c7a94e243575c5929124c
+SHA256: 70148e9219f13b5abb80b2e4a82171c1cbaf989d588f53527196142b0fc9318c
+SHA512: cbb8cd80b324bdeea3136bd7426359625336d1f1d2b7cf45599671009e621e523ea0150f60882b224f0e9105ac310857fe2529b339d88042ac782dc874483973
+Homepage: https://wiki.debian.org/Teams/Dpkg
+Description: Debian package management system
+ This package provides the low-level infrastructure for handling the
+ installation and removal of Debian software packages.
+ .
+ For Debian package development tools, install dpkg-dev.
+
+Package: libbz2-1.0
+Architecture: arm64
+Version: 1.0.8
+Multi-Arch: same
+Priority: important
+Section: libs
+Source: bzip2
+Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
+Depends: libc6 (>= 2.26)
+Filename: ./libbz2-1.0_1.0.8_arm64.deb
+Size: 62314
+MD5sum: 03fbb1e227137aa63d99185ceeb932fa
+SHA1: b75a16b4375edbd70435ecd644b9878e5be529fc
+SHA256: 91f9ddbb7cf804e014018d152512d40dd9a491b1b03ceadb68d49ecd0b01b123
+SHA512: f857a29b6d6e7ab1f09c2fb8c09663e87c80296790ee0f01f0c910c68d337241c386f9ec9f81b01373e6c4e4bcad8d8e734c8c1b2820b475f129fcaa7beaec4d
+Homepage: https://sourceware.org/bzip2/
+Description: high-quality block-sorting file compressor library - runtime
+ This package contains libbzip2 which is used by the bzip2 compressor.
+ .
+ bzip2 is a freely available, patent free, data compressor.
+ .
+ bzip2 compresses files using the Burrows-Wheeler block-sorting text
+ compression algorithm, and Huffman coding.  Compression is generally
+ considerably better than that achieved by more conventional
+ LZ77/LZ78-based compressors, and approaches the performance of the PPM
+ family of statistical compressors.
+ .
+ The archive file format of bzip2 (.bz2) is incompatible with that of its
+ predecessor, bzip (.bz).
+
+Package: libc6
+Architecture: arm64
+Version: 2.26
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: glibc
+Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
+Depends: libgcc-s1, libcrypt1
+Filename: ./libc6_2.26_arm64.deb
+Size: 2692028
+MD5sum: 605e6bae554535fee85f9ff475d764ce
+SHA1: 893d8a9a1954714298d3697da89ff619919a8920
+SHA256: 2fb647b431ec3d95b7caedd9882a129846b06d357b46c2f1fe6f86878fdcebd3
+SHA512: 251a4bf12aad8a14786c3328ae7b1ac4fdde78b694a44f9ff5283f812bf0683c5ea76dcfeda5f8a32948a99eaba89924c9acf4ae50782f5d5c63a7d45cc6e0df
+Homepage: https://www.gnu.org/software/libc/libc.html
+Description: GNU C Library: Shared libraries
+ Contains the standard libraries that are used by nearly all programs on
+ the system. This package includes shared versions of the standard C library
+ and the standard math library, as well as many others.
+
+Package: libcrypt1
+Architecture: arm64
+Version: 1:2.26
+Multi-Arch: same
+Priority: optional
+Protected: yes
+Section: libs
+Source: libxcrypt
+Maintainer: MCPat <no-reply@mcpat.com>
+Depends: libc6 (>= 2.26)
+Filename: ./libcrypt1_2.26_arm64.deb
+Size: 14794
+MD5sum: 43f3b51386af05b6d8dc15bfb53d6a41
+SHA1: 174652dab19f930d16fe421e7ea02d300c7a0cbf
+SHA256: dc7f7165c1b4fca628aa962d6ff6f1d54e2de58806a8484b6eca0224db54380b
+SHA512: bebf4b4fa92e76679074b22533b8085a41c5c34491365324e42f3acca2800c777caec86c86af9d50e6f244a04e066ece6bcaf27da7bbf5e198cb9fb4bb806f55
+Description: libcrypt shared library
+ libxcrypt is a modern library for one-way hashing of passwords.
+ It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
+ bcrypt-based password hashes
+ It provides the traditional Unix 'crypt' and 'crypt_r' interfaces,
+ as well as a set of extended interfaces like 'crypt_gensalt'.
+Important: yes
+
+Package: libgcc-s1
+Architecture: arm64
+Version: 6.4.0
+Multi-Arch: same
+Priority: optional
+Protected: yes
+Section: libs
+Source: gcc-10
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 95
+Provides: libgcc1 (= 1:6.4.0)
+Depends: libc6 (>= 2.26)
+Filename: ./libgcc-s1_6.4.0_arm64.deb
+Size: 107322
+MD5sum: 596aaa3be22f37a4579e1c0da12d1d35
+SHA1: 1c85d3728aee0722950dac03cbd4937f804fa37f
+SHA256: e17c3f7c1594422ac4b47c768ac5bdba2d4832cc68287a1c6becef2b81d21f80
+SHA512: e2d8e005b7ee27ab47162ebd8548d4e54f91a9d6a374ea5d0c1fd296d431b1bf48526428ab29babdf4265eaf846d58e35eda5398f5eaccc7c04b1b9125753100
+Homepage: http://gcc.gnu.org/
+Description: GCC support library
+ Shared version of the support library, a library of internal subroutines
+ that GCC uses to overcome shortcomings of particular machines, or
+ special needs for some languages.
+Important: yes
+
+Package: liblzma5
+Architecture: arm64
+Version: 5.2.5
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: xz-utils
+Maintainer: Jonathan Nieder <jrnieder@gmail.com>
+Depends: libc6 (>= 2.26)
+Filename: ./liblzma5_5.2.5_arm64.deb
+Size: 56362
+MD5sum: 15b32d66c492ecbe638438dbf1570a93
+SHA1: 610dd959fdfafdd0ca52f1733f4a70ba3458f607
+SHA256: 185cf4691f2ed359d8ad3ba34a36325a9ab16cee0fb2807f1017715e858045f5
+SHA512: 3c38ca5786798cb9d7a3a324209c72ff04dea31c5c839426cb764af7e36251651ba6aa532a4087efe216345e38d1a495fdfb95ca752d2ae1135e2f1813bcad12
+Homepage: https://tukaani.org/xz/
+Description: XZ-format compression library
+ XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
+ compression format, which provides memory-hungry but powerful
+ compression (often better than bzip2) and fast, easy decompression.
+ .
+ The native format of liblzma is XZ; it also supports raw (headerless)
+ streams and the older LZMA format used by lzma. (For 7-Zip's related
+ format, use the p7zip package instead.)
+
+Package: libpcre2-8-0
+Architecture: arm64
+Version: 10.39
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: pcre2
+Maintainer: Matthew Vernon <matthew@debian.org>
+Depends: libc6 (>= 2.26)
+Filename: ./libpcre2-8-0_10.39_arm64.deb
+Size: 119476
+MD5sum: 55ae4523f8312ac389986edb76facb4b
+SHA1: daba6d1753fcee31fa9c0eafcbc9cd4c88cac09e
+SHA256: 4bd48cfe8b11edceaf5c5d006f21759d510fa0e9677a34e160dfa601ae9775c3
+SHA512: f177e223f37cde95135c11afacbf446088cb3e8d67f7f12f025287d2e5687efbb628faac20a506a16317e5fbd04f7d718e91e0422e8ffa72574a07d654443027
+Homepage: https://pcre.org/
+Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
+ This is PCRE2, the new implementation of PCRE, a library of functions
+ to support regular expressions whose syntax and semantics are as
+ close as possible to those of the Perl 5 language. New projects
+ should use this library in preference to the older library,
+ confusingly called pcre3 in Debian.
+ .
+ This package contains the 8 bit runtime library.
+
+Package: libselinux1
+Architecture: arm64
+Version: 3.3
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: libselinux
+Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
+Depends: libc6 (>= 2.26), libpcre2-8-0 (>= 10.39)
+Filename: ./libselinux1_3.3_arm64.deb
+Size: 54670
+MD5sum: ccea36b508030d03bf9ce91cc6c0d499
+SHA1: 6370dd2f55ec9fa03651f0aaa27d36e16a9a06d7
+SHA256: 047d6c064910475b6d5bbcfffa9765453d6409575bd94c62562cbbe2c3fdc294
+SHA512: 2af05ca69760c770fea326432e42011e8f6117126393a5f48634acdfc219d582c1d141d0408f88fe77d041df327df5c43c6a4b65b45477e123f79feecd4d12fb
+Homepage: https://selinuxproject.org
+Description: SELinux runtime shared libraries
+ This package provides the shared libraries for Security-enhanced
+ Linux that provides interfaces (e.g. library functions for the
+ SELinux kernel APIs like getcon(), other support functions like
+ getseuserbyname()) to SELinux-aware applications. Security-enhanced
+ Linux is a patch of the Linux kernel and a number of utilities with
+ enhanced security functionality designed to add mandatory access
+ controls to Linux.  The Security-enhanced Linux kernel contains new
+ architectural components originally developed to improve the security
+ of the Flask operating system. These architectural components provide
+ general support for the enforcement of many kinds of mandatory access
+ control policies, including those based on the concepts of Type
+ Enforcement, Role-based Access Control, and Multi-level Security.
+ .
+ libselinux1 provides an API for SELinux applications to get and set
+ process and file security contexts and to obtain security policy
+ decisions.  Required for any applications that use the SELinux
+ API. libselinux may use the shared libsepol to manipulate the binary
+ policy if necessary (e.g. to downgrade the policy format to an older
+ version supported by the kernel) when loading policy.
+
+Package: tar
+Architecture: arm64
+Version: 1.34
+Multi-Arch: foreign
+Priority: required
+Essential: yes
+Section: utils
+Maintainer: Janos Lenart <ocsi@debian.org>
+Pre-Depends: libacl1 (>= 2.3.1), libc6 (>= 2.26), libselinux1 (>= 3.1~), libattr1 (>= 2.5.1)
+Suggests: bzip2, ncompress, xz-utils, tar-scripts
+Conflicts: cpio (<= 2.4.2-38)
+Replaces: cpio (<< 2.4.2-39)
+Filename: ./tar_1.34_arm64.deb
+Size: 489354
+MD5sum: 66ec9d748c2d9ec17977d0fdd4751d95
+SHA1: 5a220bd5dea38bf9c4b646ea419fcf283b4fa7cc
+SHA256: da03fcccc7327653d5456c9233d09e1b337c503b932cac1707fac414aa6bc8ca
+SHA512: c3c9867bb9de315d044b242f1096eab73a64ce20c806affa7aa1e24d249856d58c0e7c6926c237f1205507b32e0874b1d39aef9d4903c45d0a688af109239f3b
+Homepage: https://www.gnu.org/software/tar/
+Description: GNU version of the tar archiving utility
+ Tar is a program for packaging a set of files as a single archive in tar
+ format.  The function it performs is conceptually similar to cpio, and to
+ things like PKZIP in the DOS world.  It is heavily used by the Debian package
+ management system, and is useful for performing system backups and exchanging
+ sets of files with others.
+
+Package: zlib1g
+Architecture: arm64
+Version: 1:1.2.11
+Multi-Arch: same
+Priority: required
+Section: libs
+Source: zlib
+Maintainer: Mark Brown <broonie@debian.org>
+Provides: libz1
+Depends: libc6 (>= 2.26)
+Filename: ./zlib1g_1.2.11_arm64.deb
+Size: 37462
+MD5sum: 687dd04b45a35e6f2b250d5e756a7281
+SHA1: 15344af9db1a1e84cb9de4e312cbd3c4cc66cd11
+SHA256: 520dc07d5c8d99423755a6efa6a8524a44f8342f059f86a7555b29d7a8f0f3de
+SHA512: c6d78b35bc26073be606d49c83607f38a38e9d5d432a1af5cb75b3b6f915f748b4c3ee52f49889f824e27586a1bd205c10962436146dcfe1ecc5e6db06a33f13
+Homepage: http://zlib.net/
+Description: compression library - runtime
+ zlib is a library implementing the deflate compression method found
+ in gzip and PKZIP.  This package includes the shared library.
+
