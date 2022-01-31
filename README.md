@@ -1,4 +1,4 @@
-{% comment %} 
+{% comment %}
 ![UIWare](https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg)
 {% endcomment %}
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
@@ -110,7 +110,7 @@ I'm a working single dad and this is only my hobby which I did in my rare free t
 <summary>A package is missing in the repo, what can I do</summary>
 	
  - Send a request, you know I'm a busy man, but maybe I can help
- - Compile a package, send it to me, I can add it to the repo[^2]
+ - Compile a package, send it to me, I can add it to the repo{% comment %}[^2]{% endcomment %}
 
 </details>
 
