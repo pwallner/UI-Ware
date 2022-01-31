@@ -1,6 +1,6 @@
-{% comment %}
+<span class="comment">
 ![UIWare](https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg)
-{% endcomment %}
+</span>
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
 
 ## Project Notes
