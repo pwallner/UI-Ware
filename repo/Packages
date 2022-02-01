@@ -22,6 +22,26 @@ Description: Debian package management system
  .
  For Debian package development tools, install dpkg-dev.
 
+Package: libacl1
+Architecture: arm64
+Version: 2.3.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: acl
+Maintainer: Guillem Jover <guillem@debian.org>
+Depends: libc6 (>= 2.26)
+Filename: ./libacl1_2.3.1_arm64.deb
+Size: 12598
+MD5sum: facc186864aa82e883f22d5b3364d412
+SHA1: 5d19ca7b514f50cb073d66cdbc741765eb248f70
+SHA256: c4bec94032d753d5c03ac3cfda013f2a3394cd3c6ac347516224c587dc6a2068
+SHA512: 934fc2fe29e865a2f1d6c014ffe459bcc260281c21b3b8aaa35276a14708296de0ec8985fb00bc2f74fc85bbae0b0160e42f6386b351bde9d60361b283a23945
+Homepage: https://savannah.nongnu.org/projects/acl/
+Description: access control list - shared library
+ This package contains the shared library containing the POSIX 1003.1e
+ draft standard 17 functions for manipulating access control lists.
+
 Package: libattr1
 Architecture: arm64
 Version: 1:2.5.1
