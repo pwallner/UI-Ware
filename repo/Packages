@@ -10,11 +10,11 @@ Pre-Depends: libbz2-1.0, libc6 (>= 2.26), liblzma5 (>= 5.2.5), libselinux1 (>= 3
 Depends: tar (>= 1.34)
 Suggests: apt, debsig-verify
 Filename: ./dpkg_1.21.1_arm64.deb
-Size: 1147776
-MD5sum: ef3b8f8370bb9f841d0a49f42e428570
-SHA1: 968f314b689eae7564aa3c98c58c17a1cf231e94
-SHA256: 0c9b84e8bbb5e526ae6396bdfcc0d0d84f02a00be238e1d44d50174a07209154
-SHA512: c110eba0cc48772a52d0af7f555d810eb239e653c6d979230df2a34dd753932f53e76a29c36ea96acf99eb76246bf9c87d727e68bda291de234a7872fc1a4c63
+Size: 1150168
+MD5sum: 38dfa8067b8788b9ff63833659040d52
+SHA1: f99363ad9a79419e1cddcc3ae5c9cb014b139262
+SHA256: 98c01e3cb8dad2f3d3c36794ea206636e6b0f6b0a2b5ffa78e11272fe59d61ce
+SHA512: 5e5ef4b6c9cb4e24f5d0f90f28339011f089db7957e9991aee9a80f45bc3a55d90acc8f823613f33add7dc393d92b0b080e2112cfd3a287bd32222b0f2b45a10
 Homepage: https://wiki.debian.org/Teams/Dpkg
 Description: Debian package management system
  This package provides the low-level infrastructure for handling the
