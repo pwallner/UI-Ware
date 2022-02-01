@@ -22,6 +22,26 @@ Description: Debian package management system
  .
  For Debian package development tools, install dpkg-dev.
 
+Package: libattr1
+Architecture: arm64
+Version: 1:2.5.1
+Multi-Arch: same
+Priority: optional
+Section: libs
+Source: attr
+Maintainer: Guillem Jover <guillem@debian.org>
+Depends: libc6 (>= 2.26)
+Filename: ./libattr1_2.5.1_arm64.deb
+Size: 7868
+MD5sum: 5fed107bd2628e5139ac1d284c3534a8
+SHA1: cc81dca5543e09d5ae163979d638ccc98901e2ed
+SHA256: dccfaba0c6ec68ed2bd625810d2b473805c8179863fbc8ae3b8787c655e051a8
+SHA512: bd0fa2d73ba30a0be16931d9c65551b05d721f7c310f3a8c53c56a2ba039270f44ee544aa49480bedbb47420be08c59971a3c398d8b34a2fc1cfc3532743e771
+Homepage: https://savannah.nongnu.org/projects/attr/
+Description: extended attribute handling - shared library
+ Contains the runtime environment required by programs that make use
+ of extended attributes.
+
 Package: libbz2-1.0
 Architecture: arm64
 Version: 1.0.8
