@@ -1,6 +1,5 @@
-<span class="comment">
 ![UIWare](https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg)
-</span>
+
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
 
 ## Project Notes
@@ -110,11 +109,9 @@ I'm a working single dad and this is only my hobby which I did in my rare free t
 <summary>A package is missing in the repo, what can I do</summary>
 	
  - Send a request, you know I'm a busy man, but maybe I can help
- - Compile a package, send it to me, I can add it to the repo{% comment %}[^2]{% endcomment %}
+ - Compile a package, send it to me, I can add it to the repo[^2]
 
 </details>
 
-{% comment %}
 [^1]:Special thx to the [wireguard-kmod](https://github.com/tusc/wireguard-kmod) team for support and the code which I can use.
 [^2]:See guidelines to follow [TBC]
-{% endcomment %}
