@@ -53,7 +53,7 @@ Please see below for instructions on how to install UI-Ware and associated utils
  This will setup the complete ui-ware system to `/mnt/data/opt` or `/data/opt` as well as create a link to the `/opt` folder and finally load the basic apps which are needed.  
 
 ## Surviving Reboots
-> :warning: **You will need to run setup-uiware.sh whenever the UDM is rebooted as the symlink to `/opt` have to be recreated.** 
+> ⚠️ **You will need to run setup-uiware.sh whenever the UDM is rebooted as the symlink to `/opt` have to be recreated.** 
 
 * For the UDM or UDM Pro, Boostchicken has a package that can be installed to automatically run the UI-Ware script anytime the router is rebooted. Just follow the instructions [here](https://github.com/boostchicken/udm-utilities/tree/master/on-boot-script) and drop the **10-uiware.sh** script into the `/mnt/data/on_boot.d` directory when finished.
 * For the UDM-SE or UDR, create a systemd boot service to run the setup script at boot by running the following commands:
