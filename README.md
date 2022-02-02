@@ -1,4 +1,6 @@
-![UIWare](https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg)
+<p align="center">
+  <img class="comment" src="https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg" alt="UI-Ware"/>
+</p>
 
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
 
