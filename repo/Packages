@@ -10,11 +10,11 @@ Pre-Depends: libbz2-1.0, libc6 (>= 2.26), liblzma5 (>= 5.2.5), libselinux1 (>= 3
 Depends: tar (>= 1.34)
 Suggests: apt, debsig-verify
 Filename: ./dpkg_1.21.1_arm64.deb
-Size: 1149546
-MD5sum: 7e19b15ec6af9ca7006b33d1aff108ad
-SHA1: e8ed33352f0db8499685e4d658983ca176936a47
-SHA256: 7fc77da6269ff85ea52ee466b62a4d97c8e60f7408de3b7e6b9c4cb0c8c04ec8
-SHA512: 5ebda9fc6a1e115039ab72ef06575635e2650e140d96b6f7bfd01d46b5f73da2092e65e01958a5c939232595209be71071a9c90ad895f90f9b0e0dc2a51a8e97
+Size: 1148506
+MD5sum: cd66abb46e1122c9b9d746fea2e4f149
+SHA1: 11f156e214411b423fc64b3e104007990572ed45
+SHA256: 4a977f1ddc5035a82392be2792f8bfac4c77f81a5c3c9da441e2ec319de50611
+SHA512: c27842b2190dce2a31106b9ac80cff889a8d54945bc043bf4511c0fa92923306e9922dff1a16ea40d282c7aae75efc1f24f1fbe7bd16f5b582c3748ab75557e3
 Homepage: https://wiki.debian.org/Teams/Dpkg
 Description: Debian package management system
  This package provides the low-level infrastructure for handling the
@@ -222,11 +222,11 @@ Source: libselinux
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Depends: libc6 (>= 2.26), libpcre2-8-0 (>= 10.39)
 Filename: ./libselinux1_3.3_arm64.deb
-Size: 54050
-MD5sum: 8e9e090b105b453b28f0bf1391597707
-SHA1: bcbe14ba9c16ef480e2fc42cf1ed116c24ee1a72
-SHA256: 211a111ba44b66fc8d6a34665a5bf3c070946639022712cb10401840ad591545
-SHA512: b8240a2a08bd375baa7f83a33254a1419b2665bbc2966667ee856b7cbd5e0d0682d94facd1d546cc3c1bbf81793af19bde1bdf63468c6297584c90da9eabebed
+Size: 54118
+MD5sum: d6bde039f9eebad627bf85ac6a582604
+SHA1: 4e19b290a398580d74a82d5c000dad5aefe6704c
+SHA256: e8a9974883ba80ea28ad864c667e3377e560aca5c8905f7918024c274160f995
+SHA512: b44d84e7b20690563ba82f0b6bea38e61403056030dd42540798f47aedef4e78503a4686d5e2f82b15fdd1c3553fd8b1d06900400023aab71957886f5c4897a7
 Homepage: https://selinuxproject.org
 Description: SELinux runtime shared libraries
  This package provides the shared libraries for Security-enhanced
