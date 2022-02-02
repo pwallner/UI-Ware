@@ -262,11 +262,11 @@ Suggests: bzip2, ncompress, xz-utils, tar-scripts
 Conflicts: cpio (<= 2.4.2-38)
 Replaces: cpio (<< 2.4.2-39)
 Filename: ./tar_1.34_arm64.deb
-Size: 488734
-MD5sum: 035fb8f75ba13f94e16400c3be5d6d65
-SHA1: b3f3d7340fbe66d94d93fae251164e3d7b74c16f
-SHA256: 3450a312d5eed25b63e9fb764cc6cd909c9bde849edde07711bc0637fa4b8a44
-SHA512: 548f4ae8395090c89c3633e57fa960a49688b922818e378f6334c86a5a0412d5c4b440f74deba6bbc45ac1c77938f79c8c72f7beeb9660386205f59cc8797f95
+Size: 488766
+MD5sum: a290f04994450adc7124da05e94d2021
+SHA1: d9f39b26d9f2b3d4d924d0f82941ea9e18838690
+SHA256: 8015967a6b6920fb52b224534e2d3757730152ed3394164d33340a691ef3f29b
+SHA512: 4687294533ddcda4001ce75467ecf0cae2429a3a5da1c2b2eee626dbcd0d6d26470ea0fcfd91d0fa276d0cbecb0a71ece8b2aea6f5fb5b39124eb5a50b4495d4
 Homepage: https://www.gnu.org/software/tar/
 Description: GNU version of the tar archiving utility
  Tar is a program for packaging a set of files as a single archive in tar
