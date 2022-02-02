@@ -10,11 +10,11 @@ Pre-Depends: libbz2-1.0, libc6 (>= 2.26), liblzma5 (>= 5.2.5), libselinux1 (>= 3
 Depends: tar (>= 1.34)
 Suggests: apt, debsig-verify
 Filename: ./dpkg_1.21.1_arm64.deb
-Size: 1150168
-MD5sum: 38dfa8067b8788b9ff63833659040d52
-SHA1: f99363ad9a79419e1cddcc3ae5c9cb014b139262
-SHA256: 98c01e3cb8dad2f3d3c36794ea206636e6b0f6b0a2b5ffa78e11272fe59d61ce
-SHA512: 5e5ef4b6c9cb4e24f5d0f90f28339011f089db7957e9991aee9a80f45bc3a55d90acc8f823613f33add7dc393d92b0b080e2112cfd3a287bd32222b0f2b45a10
+Size: 1149546
+MD5sum: 7e19b15ec6af9ca7006b33d1aff108ad
+SHA1: e8ed33352f0db8499685e4d658983ca176936a47
+SHA256: 7fc77da6269ff85ea52ee466b62a4d97c8e60f7408de3b7e6b9c4cb0c8c04ec8
+SHA512: 5ebda9fc6a1e115039ab72ef06575635e2650e140d96b6f7bfd01d46b5f73da2092e65e01958a5c939232595209be71071a9c90ad895f90f9b0e0dc2a51a8e97
 Homepage: https://wiki.debian.org/Teams/Dpkg
 Description: Debian package management system
  This package provides the low-level infrastructure for handling the
@@ -32,11 +32,11 @@ Source: acl
 Maintainer: Guillem Jover <guillem@debian.org>
 Depends: libc6 (>= 2.26)
 Filename: ./libacl1_2.3.1_arm64.deb
-Size: 12598
-MD5sum: facc186864aa82e883f22d5b3364d412
-SHA1: 5d19ca7b514f50cb073d66cdbc741765eb248f70
-SHA256: c4bec94032d753d5c03ac3cfda013f2a3394cd3c6ac347516224c587dc6a2068
-SHA512: 934fc2fe29e865a2f1d6c014ffe459bcc260281c21b3b8aaa35276a14708296de0ec8985fb00bc2f74fc85bbae0b0160e42f6386b351bde9d60361b283a23945
+Size: 11480
+MD5sum: be35b54b88b7c04ebca1d5f371eb00d2
+SHA1: ccd8c5209d79662a72d61987541f1d07b5e66a14
+SHA256: 75aab50086e5ff06078568a3e8810a3c788e90309e872fad35ee40c825017ac6
+SHA512: bdaacfc18ec610d7b18cd0a075dee83e7969326718da9aca3c052ac9231cac523a19454f874069288686088f33488cf37dc79eb89475008601710a55e7a91a8c
 Homepage: https://savannah.nongnu.org/projects/acl/
 Description: access control list - shared library
  This package contains the shared library containing the POSIX 1003.1e
@@ -52,11 +52,11 @@ Source: attr
 Maintainer: Guillem Jover <guillem@debian.org>
 Depends: libc6 (>= 2.26)
 Filename: ./libattr1_2.5.1_arm64.deb
-Size: 7868
-MD5sum: 5fed107bd2628e5139ac1d284c3534a8
-SHA1: cc81dca5543e09d5ae163979d638ccc98901e2ed
-SHA256: dccfaba0c6ec68ed2bd625810d2b473805c8179863fbc8ae3b8787c655e051a8
-SHA512: bd0fa2d73ba30a0be16931d9c65551b05d721f7c310f3a8c53c56a2ba039270f44ee544aa49480bedbb47420be08c59971a3c398d8b34a2fc1cfc3532743e771
+Size: 6752
+MD5sum: 06600b995510965f4860b8f0ae81521f
+SHA1: 32ea96b85f101764569800af9aab842de75b388d
+SHA256: e05d2e07ae7d6dfce78f48a63b2397344bc375652cf9d9aaf2c1c42c64609e8c
+SHA512: e57d9c97ccf701158a889b648f1a2792446ee28841513f81b2ddf3d4259b2586b54d961cf0688e520d7c2be7db0929f669642cfaa0ef03891cea0ae9e7bf5647
 Homepage: https://savannah.nongnu.org/projects/attr/
 Description: extended attribute handling - shared library
  Contains the runtime environment required by programs that make use
@@ -72,11 +72,11 @@ Source: bzip2
 Maintainer: Anibal Monsalve Salazar <anibal@debian.org>
 Depends: libc6 (>= 2.26)
 Filename: ./libbz2-1.0_1.0.8_arm64.deb
-Size: 62314
-MD5sum: 03fbb1e227137aa63d99185ceeb932fa
-SHA1: b75a16b4375edbd70435ecd644b9878e5be529fc
-SHA256: 91f9ddbb7cf804e014018d152512d40dd9a491b1b03ceadb68d49ecd0b01b123
-SHA512: f857a29b6d6e7ab1f09c2fb8c09663e87c80296790ee0f01f0c910c68d337241c386f9ec9f81b01373e6c4e4bcad8d8e734c8c1b2820b475f129fcaa7beaec4d
+Size: 61196
+MD5sum: 119f9b26821cd7b28b1f7f0d4357be60
+SHA1: 5d8e5c25f29e0c0ae91a4adff855ef1e352358df
+SHA256: 2254cc1d70d3afbb7807ba6fc857edf2e7d2639acc30c943b630d9c08afbaeea
+SHA512: deb3282321fc8bcb5653b5711fb1ee54e4ae2d724b06cb47b3661e6cd1325477b3ad7ca76bc8ea0020840c1b32fadf81c573f09e69967d12e5abe51ddbba998b
 Homepage: https://sourceware.org/bzip2/
 Description: high-quality block-sorting file compressor library - runtime
  This package contains libbzip2 which is used by the bzip2 compressor.
@@ -102,11 +102,11 @@ Source: glibc
 Maintainer: GNU Libc Maintainers <debian-glibc@lists.debian.org>
 Depends: libgcc-s1, libcrypt1
 Filename: ./libc6_2.26_arm64.deb
-Size: 2692028
-MD5sum: 605e6bae554535fee85f9ff475d764ce
-SHA1: 893d8a9a1954714298d3697da89ff619919a8920
-SHA256: 2fb647b431ec3d95b7caedd9882a129846b06d357b46c2f1fe6f86878fdcebd3
-SHA512: 251a4bf12aad8a14786c3328ae7b1ac4fdde78b694a44f9ff5283f812bf0683c5ea76dcfeda5f8a32948a99eaba89924c9acf4ae50782f5d5c63a7d45cc6e0df
+Size: 2690908
+MD5sum: e23eaa1d1829c6b5662ea177d51ffdba
+SHA1: 9b76429fe616613dfc599ee1b0f4f567781ae390
+SHA256: 049f03530789b46a7154e562105f3de059ccc6739720158a0894d215c6e2f332
+SHA512: e251472d53392ebd8e8974463a01a7ea75f35cc98ba430efa123fa6857d5d0d394bfc2cf16b29b07c365499b040cce049e217493a1b6ca3df6c0285574adc0ee
 Homepage: https://www.gnu.org/software/libc/libc.html
 Description: GNU C Library: Shared libraries
  Contains the standard libraries that are used by nearly all programs on
@@ -124,11 +124,11 @@ Source: libxcrypt
 Maintainer: MCPat <no-reply@mcpat.com>
 Depends: libc6 (>= 2.26)
 Filename: ./libcrypt1_2.26_arm64.deb
-Size: 14794
-MD5sum: 43f3b51386af05b6d8dc15bfb53d6a41
-SHA1: 174652dab19f930d16fe421e7ea02d300c7a0cbf
-SHA256: dc7f7165c1b4fca628aa962d6ff6f1d54e2de58806a8484b6eca0224db54380b
-SHA512: bebf4b4fa92e76679074b22533b8085a41c5c34491365324e42f3acca2800c777caec86c86af9d50e6f244a04e066ece6bcaf27da7bbf5e198cb9fb4bb806f55
+Size: 13676
+MD5sum: 113aae2a8808d6de0e116a2ed0cdf470
+SHA1: 1f82cbd3c2c58cf839aad2a0020b0436b839c672
+SHA256: 706787ba069b7d05ff48178380f7c58f5d9337d6e760160cb29289ce912e6042
+SHA512: df247d797e0f24c8e958f92a001f33733d84d3935753053b8e5febcfe6b8431db13fb65faec288f98d2874fdad8fde595305b8963e3e31f68b26f1f241fa4f6e
 Description: libcrypt shared library
  libxcrypt is a modern library for one-way hashing of passwords.
  It supports DES, MD5, NTHASH, SUNMD5, SHA-2-256, SHA-2-512, and
@@ -150,11 +150,11 @@ Installed-Size: 95
 Provides: libgcc1 (= 1:6.4.0)
 Depends: libc6 (>= 2.26)
 Filename: ./libgcc-s1_6.4.0_arm64.deb
-Size: 107322
-MD5sum: 596aaa3be22f37a4579e1c0da12d1d35
-SHA1: 1c85d3728aee0722950dac03cbd4937f804fa37f
-SHA256: e17c3f7c1594422ac4b47c768ac5bdba2d4832cc68287a1c6becef2b81d21f80
-SHA512: e2d8e005b7ee27ab47162ebd8548d4e54f91a9d6a374ea5d0c1fd296d431b1bf48526428ab29babdf4265eaf846d58e35eda5398f5eaccc7c04b1b9125753100
+Size: 106264
+MD5sum: 055cfdd8acad0ccc7544c4cb15bb9ed5
+SHA1: e868823b65254b19ce34bf2954b349468b498b9f
+SHA256: 2b51618164df8e536a35a0ab5f35dd19b024917b8e450a9c7c40547f4d370441
+SHA512: 25259c19ac15dafc315a34a32f9dfe68b96d4321efa5a9d05193587265f4766c7f65167e3b86c9fea8b1c7efdb0ce8e5978a85596666595ac5feaa68d0f1c15f
 Homepage: http://gcc.gnu.org/
 Description: GCC support library
  Shared version of the support library, a library of internal subroutines
@@ -172,11 +172,11 @@ Source: xz-utils
 Maintainer: Jonathan Nieder <jrnieder@gmail.com>
 Depends: libc6 (>= 2.26)
 Filename: ./liblzma5_5.2.5_arm64.deb
-Size: 56362
-MD5sum: 15b32d66c492ecbe638438dbf1570a93
-SHA1: 610dd959fdfafdd0ca52f1733f4a70ba3458f607
-SHA256: 185cf4691f2ed359d8ad3ba34a36325a9ab16cee0fb2807f1017715e858045f5
-SHA512: 3c38ca5786798cb9d7a3a324209c72ff04dea31c5c839426cb764af7e36251651ba6aa532a4087efe216345e38d1a495fdfb95ca752d2ae1135e2f1813bcad12
+Size: 55244
+MD5sum: c491f5fe1075fc7d60f2142ad8763744
+SHA1: 021d84103f0f68c2a3b548b08f9d14623772da48
+SHA256: 9897d091b7a6f3087f9c4f1e2f84974684f0a5b495ceb3e44e9eb4e1f01285ef
+SHA512: b83a7e5dfc1199120d28a0ed1844ce9f65c78724795fa1c098394e3359981e94c34a778e67d2ae8b727aa477481b2a2da3f40ea59a7c16f3b40a42ee1d37c328
 Homepage: https://tukaani.org/xz/
 Description: XZ-format compression library
  XZ is the successor to the Lempel-Ziv/Markov-chain Algorithm
@@ -197,11 +197,11 @@ Source: pcre2
 Maintainer: Matthew Vernon <matthew@debian.org>
 Depends: libc6 (>= 2.26)
 Filename: ./libpcre2-8-0_10.39_arm64.deb
-Size: 119476
-MD5sum: 55ae4523f8312ac389986edb76facb4b
-SHA1: daba6d1753fcee31fa9c0eafcbc9cd4c88cac09e
-SHA256: 4bd48cfe8b11edceaf5c5d006f21759d510fa0e9677a34e160dfa601ae9775c3
-SHA512: f177e223f37cde95135c11afacbf446088cb3e8d67f7f12f025287d2e5687efbb628faac20a506a16317e5fbd04f7d718e91e0422e8ffa72574a07d654443027
+Size: 118356
+MD5sum: 454e9c58a7e25a5c0cfad3832b361bb8
+SHA1: 255e1ee178585c90157d416df88b9d8833274b4f
+SHA256: 37d360ee57c89a6963c6aff4527f809fcc959f419e1a3bd89aaaae7e79fd0e30
+SHA512: 6b3687d73479e3eec6106eadc8737ebad4f1fb03e64abe43b181b7634c485932152380b49f609831955f0e5bb694b005ec1f0f1ecc9cf8cb5326fa9caa958a53
 Homepage: https://pcre.org/
 Description: New Perl Compatible Regular Expression Library- 8 bit runtime files
  This is PCRE2, the new implementation of PCRE, a library of functions
@@ -222,11 +222,11 @@ Source: libselinux
 Maintainer: Debian SELinux maintainers <selinux-devel@lists.alioth.debian.org>
 Depends: libc6 (>= 2.26), libpcre2-8-0 (>= 10.39)
 Filename: ./libselinux1_3.3_arm64.deb
-Size: 54670
-MD5sum: ccea36b508030d03bf9ce91cc6c0d499
-SHA1: 6370dd2f55ec9fa03651f0aaa27d36e16a9a06d7
-SHA256: 047d6c064910475b6d5bbcfffa9765453d6409575bd94c62562cbbe2c3fdc294
-SHA512: 2af05ca69760c770fea326432e42011e8f6117126393a5f48634acdfc219d582c1d141d0408f88fe77d041df327df5c43c6a4b65b45477e123f79feecd4d12fb
+Size: 53552
+MD5sum: 79f0a8e247d5b8e351bd56e91209a7e1
+SHA1: 948000087bcbb842679f772c3fee51b2f4080378
+SHA256: 48f922ef685c25d08bea1408a94392622a9761f26eff8b7ba3f5491421108a6d
+SHA512: 72e8d06d69bf24aec2a25d5b36e557a9b2e3892e8f45bbcd002917d313df8f6797418426ff38cc10d6250626332836db967732a8c24f2cca5eb981a1c51f11fb
 Homepage: https://selinuxproject.org
 Description: SELinux runtime shared libraries
  This package provides the shared libraries for Security-enhanced
@@ -262,11 +262,11 @@ Suggests: bzip2, ncompress, xz-utils, tar-scripts
 Conflicts: cpio (<= 2.4.2-38)
 Replaces: cpio (<< 2.4.2-39)
 Filename: ./tar_1.34_arm64.deb
-Size: 489354
-MD5sum: 66ec9d748c2d9ec17977d0fdd4751d95
-SHA1: 5a220bd5dea38bf9c4b646ea419fcf283b4fa7cc
-SHA256: da03fcccc7327653d5456c9233d09e1b337c503b932cac1707fac414aa6bc8ca
-SHA512: c3c9867bb9de315d044b242f1096eab73a64ce20c806affa7aa1e24d249856d58c0e7c6926c237f1205507b32e0874b1d39aef9d4903c45d0a688af109239f3b
+Size: 488236
+MD5sum: d6f0e70c1c5faf9da57052bc99d4d656
+SHA1: 90c683d247974d55999d288a35127fa68779df3d
+SHA256: 5afa1d04ef18d9a6a0597dc667c8c40ac726f7579368e84f903d4616eb770494
+SHA512: 06aa6eb2771a7f9d0026135dc4b4329871bdde088bd080991eaa42e4b3c9dab6c5e97db3112c34525cb4dd9b515f048d7fb7475a1e9a5e05bcc925b8f2769b0c
 Homepage: https://www.gnu.org/software/tar/
 Description: GNU version of the tar archiving utility
  Tar is a program for packaging a set of files as a single archive in tar
@@ -286,11 +286,11 @@ Maintainer: Mark Brown <broonie@debian.org>
 Provides: libz1
 Depends: libc6 (>= 2.26)
 Filename: ./zlib1g_1.2.11_arm64.deb
-Size: 37462
-MD5sum: 687dd04b45a35e6f2b250d5e756a7281
-SHA1: 15344af9db1a1e84cb9de4e312cbd3c4cc66cd11
-SHA256: 520dc07d5c8d99423755a6efa6a8524a44f8342f059f86a7555b29d7a8f0f3de
-SHA512: c6d78b35bc26073be606d49c83607f38a38e9d5d432a1af5cb75b3b6f915f748b4c3ee52f49889f824e27586a1bd205c10962436146dcfe1ecc5e6db06a33f13
+Size: 36344
+MD5sum: 5288015a9f96d3c7a7fa4907f58f8ca0
+SHA1: 2e6d32afdfbde73d6d5da8d37a902e533ad567a9
+SHA256: 81a93e6cd7de41b7b5ab192a099db25528ebf025cee3abe9e7da3b92a613c844
+SHA512: 95285f9ae3102d48e153eac0738fefa0241f61477c6f03e34c2d98c45125b486ab4b4901a39d5c6823b8c4c0586df5a87432e580ed73a6585e9f086652da72da
 Homepage: http://zlib.net/
 Description: compression library - runtime
  zlib is a library implementing the deflate compression method found
