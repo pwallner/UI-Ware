@@ -105,8 +105,8 @@ TBC...
 ## Support my work
 I'm a working single dad and this is only my hobby which I did in my rare free time. So I really appreciate if you make a small donation to let me buy some sweets for my son!
 
-[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://buymeacoff.ee/mcpat)
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
+[!["Buy Me A Coffee"](https://github.com/pwallner/UI-Ware/raw/main/images/coffee.png)](https://buymeacoff.ee/mcpat)
+[![Support via PayPal](https://github.com/pwallner/UI-Ware/raw/main/images/paypal.svg)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
 <!-- [![Donate](https://www.paypalobjects.com/en_US/AT/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR) -->
 [![Donate](https://github.com/pwallner/UI-Ware/raw/main/images/QR-Code.png)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
 ## FAQ
