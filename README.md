@@ -5,7 +5,7 @@
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
 [![LICENSE](https://shields.io/badge/License-GPL-lightgrey)](https://raw.githubusercontent.com/pwallner/UI-Ware/main/LICENSE)
 [![Donate to this project using PayPal](https://shields.io/badge/Paypal-Donate-blue?logo=paypal&style=flat)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
-[![Donate to this project using Buy Me A Coffee](https://shields.io/badge/By%20me%20a%20coffee-Donate-yellow?logo=buymeacoffee&style=flat)](https://buymeacoff.ee/mcpat)
+[![Donate to this project using Buy Me A Coffee](https://shields.io/badge/Buy%20me%20a%20coffee-Donate-yellow?logo=buymeacoffee&style=flat)](https://buymeacoff.ee/mcpat)
 
 
 ## Project Notes
