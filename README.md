@@ -1,5 +1,5 @@
 <p align="center">
-  <img class="comment" src="https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg" alt="UI-Ware"/>
+  <a><img class="comment" src="https://github.com/pwallner/UI-Ware/raw/main/images/UIWare.svg" alt="UI-Ware"/></a>
 </p>
 
 # UI-Ware for UnifiOS (UDM, UDR, UXG)
