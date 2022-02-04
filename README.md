@@ -8,8 +8,8 @@
 [![LICENSE](https://shields.io/badge/license-GPL-lightgrey)](https://raw.githubusercontent.com/pwallner/UI-Ware/main/LICENSE)
 [![Platform](https://shields.io/badge/platform-linux%20%7C%20aarch64-lightgrey)](https://github.com/pwallner/UI-Ware)
 [![GitHub issues open](https://img.shields.io/github/issues/pwallner/UI-Ware.svg)](https://github.com/pwallner/UI-Ware/issues)
-[![Downloads total](https://img.shields.io/github/downloads/pwallner/UI-Ware/total)](https://github.com/pwallner/UI-Ware)
-![Latest release](https://img.shields.io/github/v/release/pwallner/UI-Ware)
+[![Downloads total](https://img.shields.io/github/downloads/pwallner/UI-Ware/total)](https://github.com/pwallner/UI-Ware/releases)
+[![Latest release](https://img.shields.io/github/v/release/pwallner/UI-Ware)](https://github.com/pwallner/UI-Ware/releases)
 
 
 ## Project Notes
