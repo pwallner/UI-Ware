@@ -10,7 +10,10 @@
 [![GitHub issues open](https://img.shields.io/github/issues/pwallner/UI-Ware.svg)](https://github.com/pwallner/UI-Ware/issues)
 [![Downloads total](https://img.shields.io/github/downloads/pwallner/UI-Ware/total)](https://github.com/pwallner/UI-Ware/releases)
 [![Latest release](https://img.shields.io/github/v/release/pwallner/UI-Ware)](https://github.com/pwallner/UI-Ware/releases)
-
+[![forks](https://img.shields.io:/github/forks/pwallner/UI-Ware?style=social)](https://github.com/pwallner/UI-Ware)
+[![stars](https://img.shields.io:/github/stars/pwallner/UI-Ware?style=social)](https://github.com/pwallner/UI-Ware)
+[![watchers](https://img.shields.io:/github/watchers/pwallner/UI-Ware?style=social)](https://github.com/pwallner/UI-Ware)
+[![followers](https://img.shields.io:/github/followers/pwallner?style=social)](https://github.com/pwallner)
 
 ## Project Notes
 
