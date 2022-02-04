@@ -6,10 +6,10 @@
 [![Donate to this project using PayPal](https://shields.io/badge/Paypal-Donate-blue?logo=paypal&style=flat)](https://www.paypal.com/donate/?business=2667RS4MQ9M5Y&no_recurring=1&item_name=Please+support+me+if+you+like+my+work.+Thank+you%21&currency_code=EUR)
 [![Donate to this project using Buy Me A Coffee](https://shields.io/badge/Buy%20me%20a%20coffee-Donate-yellow?logo=buymeacoffee&style=flat)](https://buymeacoff.ee/mcpat)
 [![LICENSE](https://shields.io/badge/license-GPL-lightgrey)](https://raw.githubusercontent.com/pwallner/UI-Ware/main/LICENSE)
-[![Platform](https://shields.io/badge/platform-linux%20%7C%20aarch64-lightgrey)](#)
+[![Platform](https://shields.io/badge/platform-linux%20%7C%20aarch64-lightgrey)](https://github.com/pwallner/UI-Ware)
 [![GitHub issues open](https://img.shields.io/github/issues/pwallner/UI-Ware.svg)](https://github.com/pwallner/UI-Ware/issues)
-[![Downloads total](https://img.shields.io/github/downloads/pwallner/UI-Ware/total)](#)
-[![Latest release](https://img.shields.io/github/v/release/pwallner/UI-Ware)](#)
+[![Downloads total](https://img.shields.io/github/downloads/pwallner/UI-Ware/total)](https://github.com/pwallner/UI-Ware)
+[![Latest release](https://img.shields.io/github/v/release/pwallner/UI-Ware)](https://github.com/pwallner/UI-Ware)
 
 
 ## Project Notes
